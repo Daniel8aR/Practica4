@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 4</title>
+    <link rel="stylesheet" href="./practica4.css">
+</head>
+<body>
+    <div class="centrar">
+        <h1>Pokemon</h1>
+        <input type="text" placeholder="Nombre del Pokemon" id="pokeName" name="pokeName">
+        <br><br>    
+        <button onclick="fetchPokemon()">Buscar Pokemon</button>
+        <br><br>
+        <h2 style="text-align:center" id="pokeId"></h2>
+        <br>
+        <div class="imagen">
+            <img src="./assets/images/pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+        </div>
+        <br><br><br><br><br><br><br><br><br><br>
+        <div>
+            <h2>Tipo de Pokemon: </h2>
+            <p id="typePokemon"></p>
+        </div>
+        <br><br>
+        <div>
+            <h2>Estadísticas del Pokemon: </h2>
+            <div id="text">
+                <p id="stat0"></p>
+                <p id="stat1"></p>
+                <p id="stat2"></p>
+                <p id="stat3"></p>
+                <p id="stat4"></p>
+                <p id="stat5"></p>
+            </div>
+        </div>
+        <br>
+        <div>
+            <h2>Movimientos del Pokemon: </h2>
+            <p id="move0"></p>
+            <p id="move1"></p>
+            <p id="move2"></p>
+            <p id="move3"></p>
+            <p id="move4"></p>
+            <p id="move5"></p>
+            <p id="move6"></p>
+            <p id="move7"></p>
+            <p id="move8"></p>
+            <p id="move9"></p>
+            <p id="move10"></p>
+        </div>
+        <br><br>
+    </div>
+</body>
+<footer>
+    <script src="./practica4.js"></script>
+</footer>
+</html>

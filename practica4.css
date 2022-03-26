@@ -1,0 +1,25 @@
+*{
+    font-family: Arial;
+}
+body{    
+    background-color: skyblue;
+}
+.centrar{
+    text-align: center;
+}
+h1{
+    font-size: 45px;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+.imagen{
+    width: 155px;
+    height: 155px;
+    background: whitesmoke;
+    position: absolute;
+    border: solid;
+    left: 680px;
+    top: 250px;
+}
